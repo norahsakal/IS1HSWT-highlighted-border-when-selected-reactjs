@@ -1,10 +1,9 @@
 # IS1HSWT-highlighted-border-when-selected-reactjs
-I spent > 1 hour struggling with creating a highlighted border when an image was selected in react.js
-
-
 The concept is simple: I spent > 1 hour on a problem so I'm sharing my solution to save you your precious time. 
+
 I'm not saying it's the right way to solve the problem, full disclosure: it might be the completely wrong way to solve it - but it works and I'm proving you a working Github repo, so here we go.
-I Spent > 1 Hour Struggling With This: create a highlighted border around images when selected in react.js
+
+**I Spent > 1 Hour Struggling With This:** create a highlighted border around images when selected in react.js
 The aim of this walkthrough
 Trigger a highlighted border around images when being selected or clicked at in react.js
 The struggle | in summary
