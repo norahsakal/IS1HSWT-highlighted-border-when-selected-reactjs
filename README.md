@@ -4,16 +4,18 @@ The concept is simple: I spent > 1 hour on a problem so I'm sharing my solution 
 I'm not saying it's the right way to solve the problem, full disclosure: it might be the completely wrong way to solve it - but it works and I'm proving you a working Github repo, so here we go.
 
 **I Spent > 1 Hour Struggling With This:** create a highlighted border around images when selected in react.js
-The aim of this walkthrough
-Trigger a highlighted border around images when being selected or clicked at in react.js
-The struggle | in summary
-Trigger className change when image is selected
-Loop through multiple images and trigger a highlighted boarder around the selected image and switch when another image is clicked at
 
-My > 1 hour struggle | in detail
+## The aim of this walkthrough
+Trigger a highlighted border around images when being selected or clicked at in react.js
+
+## The struggle | in summary
+1. Trigger className change when image is selected
+2. Loop through multiple images and trigger a highlighted boarder around the selected image and switch when another image is clicked at
+
+## My > 1 hour struggle | in detail
 First of all, looping though multiple images and second of all, making the highlighted border switch between the selected image.
 
-1. Create the app
+### 1. Create the app
 Create a basic react.js app;
 
 ```
@@ -27,13 +29,13 @@ cd <your_app_name>
 
 For help or troubleshooting with this step, visit; https://github.com/facebook/create-react-app
 
-2. Install Material UI
+### 2. Install Material UI
 
 ```
 npm install @material-ui/core
 ```
 
-3. Create an object with the information 
+### 3. Create an object with the information 
 Add this to src/app.js;
 ```
 class App extends Component {
@@ -60,7 +62,7 @@ render() {
     return()
 }
 ```
-4. Loop through the created object
+### 4. Loop through the created object
 Add this to src/app.js;
 
 ```
@@ -73,7 +75,7 @@ Add this to src/app.js;
 ))}
 ```
 
-5. Create css classes for highlighted border
+### 5. Create css classes for highlighted border
 Add this to src/app.css;
 ```
 .noBorder {
@@ -92,8 +94,9 @@ Add this to src/app.css;
 }
 ```
 
-6. Add an if statement for selected images
+### 6. Add an if statement for selected images
 Add a <div> to existing code in src/app.js
+
 ```
 {Object.keys(this.state.your_object).map(icon => (
     
@@ -105,8 +108,9 @@ Add a <div> to existing code in src/app.js
 ))}
 ```
 
-7. Add a function that handles the change when selecting an image
+### 7. Add a function that handles the change when selecting an image
 Add this to src/app.css above the render function
+
 ```
 onIconClick(event) {
 
@@ -126,7 +130,9 @@ onIconClick(event) {
 ```
 
 First, we're creating a new object with the existing information in the state;
+```
 let newState = Object.assign({}, this.state);
+```
 We're then basically looping through the object your_object and changing the selected value to false on all the selected key;
 ```
 for (let selection in newState.your_object) {
@@ -148,7 +154,7 @@ this.setState({
 })
 ```
 
-8. Add an onClick function to the image
+### 8. Add an onClick function to the image
 Add an onClick function referring to the newly created onIconClick function in app.js;
 ```
 {Object.keys(this.state.your_object).map(icon => (
@@ -161,13 +167,13 @@ Add an onClick function referring to the newly created onIconClick function in a
 ))}
 ```
 
-9. Run app and try it out
+### 9. Run app and try it out
 Run the app
 ```
 npm start
 ```
 
-10. Repo + working demo
+### 10. Repo + working demo
 What would this walkthrough be without a repo and a working demo?
 Here's the Github repo; 
 And here's a working demo;
