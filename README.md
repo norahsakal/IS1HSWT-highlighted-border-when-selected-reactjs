@@ -1,9 +1,9 @@
 # IS>1HSWT = I Spent > 1 Hour Struggling With This; highlighting a border when selected in react.js
 The concept is simple: I spent > 1 hour on a problem, so I'm sharing my solution to save you your precious time. 
 
-I'm not saying it's the right way to solve the problem, full disclosure: it might be the completely wrong way to solve it - but it works, and I'm proving you a working Github repo, so here we go.
+I'm not saying it's the right way to solve the problem, full disclosure: it might be a completely incorrect way to solve it - but it works, and I'm providing you a working Github repo, so here we go.
 
-**I Spent > 1 Hour Struggling With This:** create a highlighted border around images when selected in react.js
+**I Spent > 1 Hour Struggling With This:** creating a highlighted border around images when selected in react.js
 
 ## The aim of this walkthrough
 Trigger a highlighted border around images when being selected or clicked at in react.js
@@ -167,7 +167,7 @@ Add an onClick function referring to the newly created onIconClick function in `
 ))}
 ```
 
-### 9. Run app and try it out
+### 9. Run the app and try it out
 Run the app
 ```
 npm start
@@ -176,3 +176,6 @@ npm start
 ### 10. Repo + working demo
 What would this walkthrough be without a working demo?
 #### Here's a working demo;
+
+### 11. Feedback
+Please feel free to comment if you know or have found a better and easier way to solve this, would love to hear your thoughts.
