@@ -179,9 +179,9 @@ Run the app
 npm start
 ```
 
-### 10. Repo + working demo
+### 10. Repo + working demo :tada:
 What would this walkthrough be without a working demo?
 #### Here's a working demo; http://is1hswt-highlighted-border-when-selected-reactjs.s3-website-us-east-1.amazonaws.com/
 
 ### 11. Feedback
-Please feel free to comment if you know or have found a better and easier way to solve this, would love to hear your thoughts.
+Please feel free to comment if you know or have found a better and easier way to solve this, would love to hear your thoughts :raised_hands:
