@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 
 class App extends Component {
   constructor(props) {
@@ -22,8 +20,8 @@ class App extends Component {
           selected: false,
         },
         rasberry: {
-          name: "rasberry",
-          image: require('./images/rasberry.png'),
+          name: "raspberry",
+          image: require('./images/raspberry.png'),
           selected: false,
         },
         cherry: {
