@@ -3,7 +3,7 @@
 
 The concept is simple: I spent > 1 hour on a problem, so I'm sharing my solution to save you your precious time. 
 
-I'm not saying it's the right way to solve the problem, full disclosure: it might be a completely incorrect way to solve it - but it works, and I'm providing you a working Github repo, so here we go.
+I'm not saying it's the right way to solve the problem, full disclosure: it might be a completely incorrect way to solve it - but it works, and I'm providing you this working Github repo + a working demo, so here we go.
 
 **I Spent > 1 Hour Struggling With This:** creating a highlighted border around images when selected in react.js
 
