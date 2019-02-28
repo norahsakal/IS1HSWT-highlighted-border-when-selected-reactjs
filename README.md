@@ -1,4 +1,4 @@
-# IS1HSWT-highlighted-border-when-selected-reactjs
+# IS>1HSWT = I Spent > 1 Hour Struggling With This; highlighting a border when selected in react.js
 The concept is simple: I spent > 1 hour on a problem, so I'm sharing my solution to save you your precious time. 
 
 I'm not saying it's the right way to solve the problem, full disclosure: it might be the completely wrong way to solve it - but it works, and I'm proving you a working Github repo, so here we go.
