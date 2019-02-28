@@ -16,7 +16,7 @@ Trigger a highlighted border around images when being selected or clicked at in 
 First of all, looping though multiple images and second of all, making the highlighted border switch between the selected image.
 
 ### 1. Create the app
-Create a basic react.js app;
+Create a basic `react.js` app;
 
 ```
 npx create-react-app <your_app_name>
@@ -63,7 +63,7 @@ render() {
 }
 ```
 ### 4. Loop through the created object
-Add this to src/app.js;
+Add this to `src/app.js`;
 
 ```
 {Object.keys(this.state.your_object).map(icon => (
@@ -76,7 +76,7 @@ Add this to src/app.js;
 ```
 
 ### 5. Create css classes for highlighted border
-Add this to src/app.css;
+Add this to `src/app.css`;
 ```
 .noBorder {
     text-align: center;
@@ -95,7 +95,7 @@ Add this to src/app.css;
 ```
 
 ### 6. Add an if statement for selected images
-Add a `<div>` to existing code in src/app.js
+Add a `<div>` to existing code in `src/app.js`;
 
 ```
 {Object.keys(this.state.your_object).map(icon => (
@@ -155,7 +155,7 @@ this.setState({
 ```
 
 ### 8. Add an onClick function to the image
-Add an onClick function referring to the newly created onIconClick function in app.js;
+Add an onClick function referring to the newly created onIconClick function in `src/app.js`;
 ```
 {Object.keys(this.state.your_object).map(icon => (
     <img 
