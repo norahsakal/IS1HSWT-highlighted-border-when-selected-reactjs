@@ -1,4 +1,5 @@
-# IS>1HSWT = I Spent > 1 Hour Struggling With This; highlighting a border when selected in react.js
+# IS>1HSWT: Trigger a highlighted border around images when selected or clicked on in react.js
+**IS>1HSWT** = **I** **S**pent **>** **1** **H**our **S**truggling **W**ith **T**his; highlighting a border when selected in react.js.
 The concept is simple: I spent > 1 hour on a problem, so I'm sharing my solution to save you your precious time. 
 
 I'm not saying it's the right way to solve the problem, full disclosure: it might be a completely incorrect way to solve it - but it works, and I'm providing you a working Github repo, so here we go.
