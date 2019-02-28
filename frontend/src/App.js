@@ -19,7 +19,7 @@ class App extends Component {
           image: require('./images/strawberry.png'),
           selected: false,
         },
-        rasberry: {
+        raspberry: {
           name: "raspberry",
           image: require('./images/raspberry.png'),
           selected: false,
