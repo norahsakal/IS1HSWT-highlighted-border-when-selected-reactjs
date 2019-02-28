@@ -7,6 +7,8 @@ I'm not saying it's the right way to solve the problem, full disclosure: it migh
 
 **I Spent > 1 Hour Struggling With This:** creating a highlighted border around images when selected in react.js
 
+Here's a working demo; http://is1hswt-highlighted-border-when-selected-reactjs.s3-website-us-east-1.amazonaws.com/
+
 ## The aim of this walkthrough
 Trigger a highlighted border around images when being selected or clicked at in react.js
 
@@ -179,7 +181,7 @@ npm start
 
 ### 10. Repo + working demo
 What would this walkthrough be without a working demo?
-#### Here's a working demo;
+#### Here's a working demo; http://is1hswt-highlighted-border-when-selected-reactjs.s3-website-us-east-1.amazonaws.com/
 
 ### 11. Feedback
 Please feel free to comment if you know or have found a better and easier way to solve this, would love to hear your thoughts.
