@@ -16,7 +16,7 @@ Trigger a highlighted border around images when being selected or clicked at in 
 First of all, looping though multiple images and second of all, making the highlighted border switch between the selected image.
 
 ### 1. Create the app
-Create a basic `react.js` app;
+Create a basic react.js app;
 
 ```
 npx create-react-app <your_app_name>
@@ -36,7 +36,7 @@ npm install @material-ui/core
 ```
 
 ### 3. Create an object with the information 
-Add this to src/app.js;
+Add this to `src/app.js`;
 ```
 class App extends Component {
     constructor(props) {
@@ -109,7 +109,7 @@ Add a `<div>` to existing code in `src/app.js`;
 ```
 
 ### 7. Add a function that handles the change when selecting an image
-Add this to src/app.css above the render function
+Add this to `src/app.css` above the render function
 
 ```
 onIconClick(event) {
