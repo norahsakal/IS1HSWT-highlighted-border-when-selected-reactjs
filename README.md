@@ -95,7 +95,7 @@ Add this to src/app.css;
 ```
 
 ### 6. Add an if statement for selected images
-Add a <div> to existing code in src/app.js
+Add a `<div>` to existing code in src/app.js
 
 ```
 {Object.keys(this.state.your_object).map(icon => (
@@ -174,6 +174,5 @@ npm start
 ```
 
 ### 10. Repo + working demo
-What would this walkthrough be without a repo and a working demo?
-Here's the Github repo; 
-And here's a working demo;
+What would this walkthrough be without a working demo?
+#### Here's a working demo;
