@@ -1,16 +1,16 @@
-# IS>1HSWT: Trigger a highlighted border around images when selected or clicked on in react.js
-**IS>1HSWT** = **I** **S**pent **>** **1** **H**our **S**truggling **W**ith **T**his; highlighting a border when selected in react.js.
+# IS>1HSWT: Trigger a highlighted border around images when selected or clicked on in React.js
+**IS>1HSWT** = **I** **S**pent **>** **1** **H**our **S**truggling **W**ith **T**his; highlighting a border when selected in React.js.
 
 The concept is simple: I spent > 1 hour on a problem, so I'm sharing my solution to save you your precious time. 
 
 I'm not saying it's the right way to solve the problem, full disclosure: it might be a completely incorrect way to solve it - but it works, and I'm providing you this working Github repo + a working demo, so here we go.
 
-**I Spent > 1 Hour Struggling With This:** creating a highlighted border around images when selected in react.js
+**I Spent > 1 Hour Struggling With This:** creating a highlighted border around images when selected in React.js
 
 Here's a working demo; http://is1hswt-highlighted-border-when-selected-reactjs.s3-website-us-east-1.amazonaws.com/
 
 ## The aim of this walkthrough
-Trigger a highlighted border around images when being selected or clicked at in react.js
+Trigger a highlighted border around images when being selected or clicked at in React.js
 
 ![alt text](https://github.com/norahsakal/IS1HSWT-highlighted-border-when-selected-reactjs/blob/master/icon_clicking_final.gif?raw=true)
 
@@ -22,7 +22,7 @@ Trigger a highlighted border around images when being selected or clicked at in 
 First of all, looping through multiple images and second of all, making the highlighted border switch between the selected image.
 
 ### 1. Create the app
-Create a basic react.js app;
+Create a basic React.js app;
 
 ```
 npx create-react-app <your_app_name>
