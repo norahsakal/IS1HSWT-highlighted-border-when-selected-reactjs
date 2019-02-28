@@ -10,6 +10,8 @@ I'm not saying it's the right way to solve the problem, full disclosure: it migh
 ## The aim of this walkthrough
 Trigger a highlighted border around images when being selected or clicked at in react.js
 
+![alt text](https://github.com/norahsakal/IS1HSWT-highlighted-border-when-selected-reactjs/blob/master/icon_clicking_final.gif?raw=true)
+
 ## The struggle | in summary
 1. Trigger className change when an image is selected
 2. Loop through multiple images and trigger a highlighted border around the selected image and switch when another image is clicked at
